@@ -10,9 +10,9 @@
 2. Переименовываем папку в **mailer**
 3. Заливаем её на сервер в корень сайта
 4. Подключаем файлы css и js к шаблону сайта (mailer/mailer.js и mailer/style.css)
-5. Ко всем формам добавляем класс **A--form-send-email** (<form class="A--form-send-email">)
-6. Добавляем в формы скрытое поле **<input name="check" type="hidden" value="">**
-7. Добавляем к кнопке отправке событие при клике **onclick="setNoSpamValue(this)"** (<button onclick="setNoSpamValue(this)">Отправить</button>)
+5. Ко всем формам добавляем класс **A--form-send-email** ```<form class="A--form-send-email">```
+6. Добавляем в формы скрытое поле ```<input name="check" type="hidden" value="">```
+7. Добавляем к кнопке отправке событие при клике **onclick="setNoSpamValue(this)"** ```<button onclick="setNoSpamValue(this)">Отправить</button>```
 8. Добавляем во все поля атрибуты name в формате (по ним будем выводить поля в шаблон) пример name="full_name" или name="phone"
 9. Настраиваем конфиг в файле mailer/mailer.php
 
